@@ -1,3 +1,6 @@
+/**
+ * Paquete al que pertenece la clase
+ */
 package edu.rusbellruiz.quarrylevel2workshop1;
 
 /**
@@ -8,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Representa algunos atributos relevantes de cualquier persona
+ * Esta clase representa algunos atributos relevantes de cualquier persona
  */
 public class Person {
     /**
@@ -53,7 +56,7 @@ public class Person {
      * Es un método que nos permite convertir la fecha del usuario ingresada en un formato común (dd/mm/aaaa) al formato que maneja por defecto la clase Date
      * @param date corresponde a la fecha de nacimiento del nuevo objeto person en formato dd/mm/aaaa y de tipo String
      */
-    public void changeFormat(String date){
+    private void changeFormat(String date){
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         /**
          * Si todo sale bien hace el cambio de formato de la fecha de nacimiento, de lo contrario nos devuelve una excepción
@@ -91,8 +94,8 @@ public class Person {
     }
 
     /**
-     * Este método nos permite obtener cierta información del objeto en cuestión con un orden especificado y de tipo String
-     * @return retorna la información especificada del objeto en cuestión
+     * Este método nos permite obtener cierta información del objeto en cuestión con un orden definido y de tipo String
+     * @return retorna la información indicada sobre el objeto en cuestión
      */
     @Override
     public String toString() {

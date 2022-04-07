@@ -3,6 +3,10 @@ package edu.rusbellruiz.quarrylevel2workshop1;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Esta clase se usó para probar la correcta funcionalidad de cada una de las clases
+ * perteneciente a este mismo Package(BankAccount, Bicycle, Birds, Fruit, Person, User).
+ */
 public class Main {
     public static void main(String[] args){
         Person p1 = new Person("Rusbell","Ruiz","portocarrero", "17/09/1993)", 180);
