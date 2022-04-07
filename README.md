@@ -6,7 +6,7 @@ Este proyecto tiene como finalidad cumplir con los requisitos mínimos exigidos 
 
 ## DESCRIPCION
 
-En el presente proyecto, se elaboraron 6 diferentes clases, en las cuales se abordaron algunos temas de la programación orientada a objetos, tales como:
+En el presente proyecto, se elaboraron 6 diferentes clases, en las cuales se abordan algunos temas de la programación orientada a objetos, tales como:
 
 - Clases
 - Objetos
