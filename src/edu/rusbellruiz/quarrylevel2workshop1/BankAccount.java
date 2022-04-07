@@ -20,10 +20,12 @@ public class BankAccount {
      */
     public boolean actived;
 
+
     /**
-     *Constructor que nos permite inicializar el objeto con estos atributos como requisito
+     * Constructor que nos permite inicializar el objeto con estos atributos como requisito
+     *
      * @param accountNumber representa el número de la cuenta bancaria en cuestión
-     * @param actived se solicita el estado de activación de la cuenta bancaria en cuestión
+     * @param actived       se solicita el estado de activación de la cuenta bancaria en cuestión
      */
     public BankAccount(int accountNumber, boolean actived) {
         this.accountNumber = accountNumber;
@@ -34,8 +36,10 @@ public class BankAccount {
         setActived(this.actived);
     }
 
+
     /**
      * Este método permite modificar el estado de activación de la cuenta bancaria
+     *
      * @param actived atributo que sirve como modificador de estado de activación
      */
     public void setActived(boolean actived) {
@@ -48,6 +52,7 @@ public class BankAccount {
          */
         this.activated = this.actived;
     }
+
 
     /**
      * Este método nos permite obtener el valor que contiene el modificador de estado de activación
